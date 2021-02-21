@@ -1,0 +1,72 @@
+golan shany	Ayelet Avraham
+
+=============================
+=  README for ex12 =
+=============================
+
+
+==================
+=  Description:  =
+==================
+contains the following .py files:
+1. four_in_a_row.py: contains for following main functions:
+
+	1.1 main : the main function that runs the game
+
+
+2. ai.py: contains for following main functions:
+# allows a virtual player
+
+	2.1 __init__ : the constructor
+
+	2.2 full_columns: Returns a list with columns that are full to top with
+	discs.
+
+	2.3 find_legal_move: returns a legal move (column index).
+
+
+3. board.py: contains for following main functions:
+
+	3.1 __init__ : the constructor
+
+	3.2 def add_disc(self, col, color): Adds a disc to board. Player can add a
+	 disc only by choosing a col.
+
+
+4. disc.py: contains for following main functions:
+
+	4.1 __init__ : the constructor
+
+	* getters and setters
+
+
+5. game.py: contains for following main functions:
+
+	5.1 __init__ : the constructor
+
+	5.2 make_move : changes board according to the input
+
+	5.3 get_winner : decides if the game has ended, and if positive, who won
+
+
+6. gui_module.py: contains for following main functions:
+
+	6.1 __init__ : the constructor
+
+	6.2 hand_click: manages the turn for a human player according to
+	 click location
+
+	6.3 handle_virtual: manages the turn for a virtual player
+
+	6.4 _draw_disc: draws a disc according to location
+
+	6.5 handle_winning: handles the situation of game ending
+
+	* many more functions with supplemented documentation inside.
+
+	
+* all functions ( including supplementary functions) are documented in their file
+======================
+=  Special Comments  =
+======================
+

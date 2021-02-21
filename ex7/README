@@ -1,0 +1,25 @@
+ayeletavr
+313451932
+Ayelet Avraham
+
+I discussed the exercise with: Golan Shany
+
+=============================
+=  README for ex7: Recursion
+=============================
+
+
+==================
+=  Description:  = implementation of recursive functions.
+==================
+
+
+======================
+=  Special Comments  = Running times:
+is_prime - O(sqrt(n)) - worst case is a prime number, which goes into i * i > n. 
+print_no_repetition_sequence - O(n! / (len(char_list)-n)), if n == len(char_list): O(n!).
+because worst case is to reach all letters, and then goes to next index.
+flood_fill - O((n-1)^2) - worst case is when initial image is empty (all '.'). that it goes (n-1)^2 times.
+======================
+
+What's up Doc?

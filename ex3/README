@@ -1,0 +1,31 @@
+ayeletavr
+313451932
+Ayelet Avraham
+
+I discussed the exercise with: Golan Shany
+
+=============================
+=  README for ex3: Loops
+=============================
+
+
+==================
+=  Description:  = In this ex, we implied different functions that contains Lists, loops, and more..
+==================
+
+
+======================
+=  Special Comments  = For part D I chose these values in order to:
+see what happens with empty list
+see what happens with non-positive numbers (0 and negative).
+see what happens with very large and very small values.
+Answers for part E:
+False
+-1
+Error
+[0,1,1]
+[]
+[[2,0],[2,0],[2,0]]
+======================
+
+What's up Doc?

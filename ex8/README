@@ -1,0 +1,44 @@
+ayeletavr
+313451932
+Ayelet Avraham
+
+I discussed the exercise with: Golan Shany
+
+=============================
+=  README for ex8: Backtracking
+=============================
+
+
+==================
+=  Description:  = implementation of recursive-backtracking functions:
+ sudoku game and k subsets.
+
+======================
+=  Special Comments  = 
+
+functions (description in file):
+
+sudoku functions:
+solve_sudoku(board) - main function thats returns True (if solved) or Flase (if unsolved).
+find empty location(board, list)
+safe_row(board, row, num)
+safe_col(board, col, num)
+safe_inner_square(board, row, col, num)
+safe_placement(board, row, col, num)
+
+k subsets:
+
+print_k_subsets(n,k) - main function
+print_set(cur_set)
+k_subset_helper(cur_set, k, index, picked)
+
+fill_k_subsets(n, k, list) - main function
+fill_list(cur_set, list)
+fill_k_subsets_helper(cur_set, k, index, list, picked)
+
+return_k_subsets(n,k)
+==================
+
+======================
+
+What's up Doc?

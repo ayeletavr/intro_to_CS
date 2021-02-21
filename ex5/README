@@ -1,0 +1,32 @@
+ayeletavr
+313451932
+Ayelet Avraham
+
+I discussed the exercise with: Golan Shany
+
+=============================
+=  README for ex5: Wordsearch
+=============================
+
+
+==================
+=  Description:  = In this ex, we had to make a program that search certain words in a certain matrix.
+the program can search in 8 different directions, and user choose directions to search.
+==================
+
+
+======================
+=  Special Comments  = in check_wordsearch, i tested a function called search_r, that makes the "r" direction search.
+test 01 - checks what happens when no words appears in matrix.
+test 02 - checks what happens when a word is a whole row in matrix.
+test 03 - checks what happens when word list contains a word more than one time.
+test 04 - checks what happens when more that one word appears in matrix.
+
+Side functions in find_words_in_matrix:
+Side functions divides into two types:
+1. functions that changes the input matrix (transpose, upside-down, revrse, diagonal) so search in "r" direction works in different directions.
+2. function to every single direction out of 8. search_r function does the main search,
+ and each direction "flippes" the input matrix in order to make an "r" direction in each direction.
+======================
+
+What's up Doc?

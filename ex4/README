@@ -1,0 +1,33 @@
+ayeletavr
+313451932
+Ayelet Avraham
+
+I discussed the exercise with: Golan Shany
+
+=============================
+=  README for ex4: Hangman
+=============================
+
+
+==================
+=  Description:  = In this ex, we implied functions,
+that together creates the Hangman game.
+==================
+
+
+======================
+=  Special Comments  =
+Answer to part C (theoretic):
+I didn't use ascii letters, or the index-letter functions that were
+to help.
+So, I would only change conditions that contains bool to lower letters,
+more specifically, lower_letter function that bools lower letters.
+
+ For part C (tests) I chose these values:
+harrypotter - see what happens when character appears more than once.
+jk - short value.
+siriusandseverus - long value.
+horcrux - almost complete word.
+======================
+
+What's up Doc?
